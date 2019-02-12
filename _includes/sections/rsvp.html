@@ -2,13 +2,19 @@
   <header class="major">
     <h2>RSVP</h2>
 
-	<form method="POST" action="https://www.enformed.io/tq3qg8s1">
-		<input type="hidden" name="*formname" value="wedding-rsvp" />
-	  <input type="text" name="name" placeholder="Your name" style="background: #d5f0fb"/>
-	  <input style="background: #d5f0fb; margin-top: 4px" type="text" name="email" placeholder="Your email"/>
-	  <textarea name="message" placeholder="Let us know if you can come and who's coming!" style="background: #d5f0fb; margin-top: 4px"></textarea>
-	  <br>
-	  <button type="submit" style="background: #d5f0fb">RSVP</button>
-	</form>
+		<form method="POST" action="https://www.enformed.io/tq3qg8s1">
+			<input type="hidden" name="*formname" value="wedding-rsvp" />
+			<input id="name-input" type="text" name="name" placeholder="Your name" style="background: #d5f0fb"/>
+			<input type="text" name="dietaryRequirements" placeholder="Dietary Requirements" style="background: #d5f0fb; margin-top: 4px"/>
+			<textarea name="message" placeholder="Let us know if you can come and who's coming!" style="background: #d5f0fb; margin-top: 4px"></textarea>
+			<br>
+			<button type="submit" style="background: #d5f0fb">RSVP</button>
+		</form>
+		<script type="text/javascript">
+			var name = getCookie('name');
+			if(name) {
+				document.getElementById('name-input').value = name;
+			}
+		</script>
   </header>
 </div>

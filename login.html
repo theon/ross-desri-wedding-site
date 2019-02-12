@@ -1,0 +1,22 @@
+---
+layout: signin
+---
+
+<section id="banner" class="wrapper style3 special" style="background-color: #fffafa">
+  
+  <header class="major">
+    <h2>SIGN IN</h2>
+    <form id="login-form" method="POST" action="/login.html">
+      <div id="invite-code-error-message" style="color:#f00; display: none;">Invalid invite code. Please try again</div>
+      <input id="invite-code" name="inviteCode" type="text" placeholder="Invite code" style="display: inline-block; background: #d5f0fb; margin: 10px; width: 300px;" />
+      <br />
+      <button type="submit" style="background: #d5f0fb">SIGN IN</button>
+    </form>
+    <script type="text/javascript">
+        if(window.location.href.indexOf('auth=failed') != -1) {
+          document.getElementById('invite-code-error-message').style.display = "block";
+        }
+    </script>
+  </header>
+
+</section>

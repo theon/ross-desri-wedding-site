@@ -1,14 +1,14 @@
 # Site settings
 title: "Desri + Ross"
 description: |
-    London
+    Cheam, Surrey
 
     20 January 2020
 owner: Ross Ewart
 first_published: 2019
 email: forsey+wedding@gmail.com
-baseurl: "/ross-desri-wedding-site" # the subpath of your site, e.g. /blog
-url: "https://theon.github.io/ross-desri-wedding-site" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://d2gfjgbfqrlvzv.cloudfront.net" # the base hostname & protocol for your site
 
 social:
   github: https://github.com/theon/ross-desri-wedding-site
