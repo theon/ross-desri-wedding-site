@@ -1,2 +1,4 @@
 deploy.sh
+.sass-cache/
+_site/
 
