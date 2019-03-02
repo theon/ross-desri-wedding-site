@@ -1114,7 +1114,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					color: _palette($p, fg);
 
 					&:before {
-						background: _palette($p, border-bg);
+						background: #d5f0fb;
 					}
 				}
 

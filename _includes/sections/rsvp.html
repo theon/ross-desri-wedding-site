@@ -5,8 +5,10 @@
 		<form method="POST" action="https://www.enformed.io/tq3qg8s1">
 			<input type="hidden" name="*formname" value="wedding-rsvp" />
 			<input id="name-input" type="text" name="name" placeholder="Your name" style="background: #d5f0fb"/>
-			<input type="text" name="dietaryRequirements" placeholder="Dietary Requirements" style="background: #d5f0fb; margin-top: 4px"/>
-			<textarea name="message" placeholder="Let us know if you can come and who's coming!" style="background: #d5f0fb; margin-top: 4px"></textarea>
+			<input type="text" name="dietary requirements" placeholder="Dietary Requirements" style="background: #d5f0fb; margin-top: 4px"/>
+			<input id="attending-checkbox" type="radio" name="attending" value="yes" checked><label for="attending-checkbox" style="float: left; margin: 20px;">I will be attending</label>
+			<input id="not-attending-checkbox" type="radio" name="attending" value="no"><label for="not-attending-checkbox" style="float: left; margin: 20px;">I can't make it</label>
+			<textarea name="message" placeholder="Anything else you need to let us know?" style="background: #d5f0fb; margin-top: 4px"></textarea>
 			<br>
 			<button type="submit" style="background: #d5f0fb">RSVP</button>
 		</form>
